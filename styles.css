@@ -7,17 +7,6 @@ body{
     /* font-family: 'Montserrat', sans-serif; */
 }
 
-/* Containers */
-.container{
-    padding: 4rem;
-    margin-bottom: 5rem;
-}
-
-/* Game Board */
-.board{
-    margin-bottom: 3.5rem;
-}
-
 /* Headings */
 h1{
     padding-bottom: 3.5rem;
@@ -32,6 +21,18 @@ h3{
 h5{
     text-align: left;
 }
+
+/* Containers */
+.container{
+    padding: 4rem;
+    margin-bottom: 5rem;
+}
+
+/* Game Board */
+.board{
+    margin-bottom: 3.5rem;
+}
+
 
 
 @media (max-width: 900px){
@@ -65,6 +66,9 @@ img{
     height: 4rem;
     width: 25rem;
     font-size: 2rem;
+}
+#Restart{
+    padding: auto;
 }
 
 
