@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+
+    background-color: #1e5f74;
+    color: #fcdab7;
+    font-family: 'Arvo', serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+/* Containers */
+.container{
+    padding: 4rem;
+    margin-bottom: 5rem;
+}
+
+/* Game Board */
+.board{
+    margin-bottom: 3.5rem;
+}
+
+/* Headings */
+h1{
+    padding-bottom: 3.5rem;
+    font-family: 'Lilita One', cursive;
+    font-size: 6.8rem;
+}
+
+h3{
+    padding-bottom: 3rem;
+}
+
+h5{
+    text-align: left;
+}
+
+
+@media (max-width: 900px){
+
+    h1{
+        font-size: 2.8rem;
+    }
+
+   .col-lg-4{
+       padding-bottom: 3rem ;
+   }
+}
+
+
+/* Pressable Icons */
+
+img{
+    width: 9rem;
+    border-radius: 100%;
+    border: 20px solid #1d2d50;
+}
+.pButton:hover {
+    border: grey;
+}
+
+
+
+/* Play Again Button */
+
+.btn{
+    height: 4rem;
+    width: 25rem;
+    font-size: 2rem;
+}
+
+
+/* Score Section */
+
+.Score{
+    padding-left: 1.5rem;
+}
+hr{
+    border-style: dashed none none;
+    border-width: 10px;
+    border-color: grey;
+    
+}
+
+
+/* Footer */
+
+footer{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 200;
+}
+
+/* Animation */
+.keyPressed{
+    border: grey;
+}
