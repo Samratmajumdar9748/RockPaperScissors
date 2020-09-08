@@ -35,28 +35,6 @@ h5{
 
 
 
-@media (max-width: 900px){
-
-    h1{
-        font-size: 2.8rem;
-    }
-
-   .col-lg-4{
-       padding-bottom: 3rem ;
-   }
-    img{
-        width: 30px;
-   }
-       .btn{
-    height: 4rem;
-    width: 10rem;
-    font-size: 1.5rem;
-    }
-    #Restart{
-    padding: auto;
-    }
-}
-
 
 /* Pressable Icons */
 
@@ -106,4 +84,46 @@ footer{
 /* Animation */
 .keyPressed{
     border: grey;
+}
+
+@media (max-width: 1000px) and (min-width:572px){
+
+    h1{
+        font-size: 3.5rem;
+    }
+
+   .col-md-6{
+       padding-bottom: 3rem ;
+   }
+   img{
+        width: 7rem;
+        border: 10px solid #1d2d50;
+   }
+   .btn{
+    height: 4rem;
+    width: 15rem;
+    font-size: 2rem;
+}
+
+}
+
+@media (max-width :572px){
+
+    h1{
+        font-size: 2.8rem;
+    }
+
+   .col-sm-12{
+       padding: 30px;
+   }
+   img{
+        width: 7rem;
+        border: 10px solid #1d2d50;
+   }
+   .btn{
+    height: 4rem;
+    width: 15rem;
+    font-size: 2rem;
+}
+
 }
